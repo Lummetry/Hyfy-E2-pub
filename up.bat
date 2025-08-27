@@ -8,4 +8,4 @@ docker-compose up -d
 
 echo Containers are starting...
 
-docker logs r1node -f
+docker logs hyfy_exe_eng -f
