@@ -1,5 +1,5 @@
 services:
-  s9ee:
+  hyfy_exe_eng:
     image: aixpand/exe_eng:develop
     container_name: hyfy_exe_eng
     restart: always
