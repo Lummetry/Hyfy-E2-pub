@@ -3,7 +3,7 @@ services:
     image: aixpand/exe_eng:develop
     container_name: hyfy_exe_eng
     restart: always
-    env-file: .env
+    env_file: .env
     gpus: all
     volumes:
       - ee_vol:/exe_eng/_local_cache
